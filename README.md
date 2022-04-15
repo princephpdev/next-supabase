@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This app has a profile page with magic link login functionality using [Supabase](https://supabase.com/)
 
-# Node Version - 16
+> Node Version - 16
 
 ## Getting Started
 
