@@ -1,19 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This app has a profile page with magic link login functionality using supabase
+This app has a profile page with magic link login functionality using [Supabase](https://supabase.com/)
+
+# Node Version - 16
 
 ## Getting Started
 
-Go to Supabase:
+Take a clone from [Github - next-supabase](https://github.com/princephpdev/next-supabase) to your local machine and open clone on vscode
 
-Open [https://app.supabase.io/](https://app.supabase.io/) with your browser and do login then create a new project
+- Run `npm install`
 
-1. Go to the "Settings" section.
-2. Click "API" in the sidebar.
-3. Find your API URL in this page.
-4. Find your "anon" and "service_role" keys on this page.
+Open [https://app.supabase.io/](https://app.supabase.io/) with your browser and login
 
-Open `env.example` file and copy as `env.local`, add api keys taken from supabase.
+1. Create a new project
+2. Go to the "Settings" section.
+3. Click "API" in the sidebar.
+4. Find your API URL in this page.
+5. Find your "anon" and "service_role" keys on this page.
+
+Go to your cloned project and then copy `env.example` file as `env.local`, add api keys taken from supabase.
 
 ## Add SQL to Supabase for user and profile
 
